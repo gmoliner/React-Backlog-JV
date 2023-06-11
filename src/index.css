@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-nav .nav-link.active {
+  color: #9e7acd;
+}
+
+.main-title {
+  border-left: 10px solid #9e7acd;
+  padding-left: 10px;
+}
+
+.btn--google {
+  background-color: #fff;
+  color: #0d6efd;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2' viewBox='0 0 40 40'%3E%3Cpath d='M0 0h40v40H0z' style='fill:none'/%3E%3Cpath d='M28.64 20.205c0-.639-.057-1.252-.164-1.841H20v3.481h4.844a4.141 4.141 0 0 1-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615Z' style='fill:%234285f4'/%3E%3Cpath d='M20 29c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.859-3.048.859-2.344 0-4.328-1.583-5.036-3.71h-3.007v2.332A8.998 8.998 0 0 0 20 29Z' style='fill:%2334a853'/%3E%3Cpath d='M14.964 21.71a5.41 5.41 0 0 1-.282-1.71c0-.593.102-1.17.282-1.71v-2.332h-3.007a9.005 9.005 0 0 0 0 8.084l3.007-2.332Z' style='fill:%23fbbc05'/%3E%3Cpath d='M20 14.58c1.321 0 2.508.454 3.44 1.345l2.582-2.581C24.463 11.892 22.426 11 20 11a8.998 8.998 0 0 0-8.043 4.958l3.007 2.332c.708-2.127 2.692-3.71 5.036-3.71Z' style='fill:%23ea4335'/%3E%3Cpath d='M11 11h18v18H11z' style='fill:none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  border-radius: 0.3rem;
+  box-shadow: 0 3px 1rem 0 rgba(0,0,0,.15);
+  /* font-size: 1.4rem; */
+  font-weight: 700;
+  height: 3rem;
+  padding-left: 3rem;
+}
+
+.btn--github {
+  background-color: #fff;
+  color: #0d6efd;
+  background-image: url("data:image/svg+xml,%3Csvg width='2em' height='2em' viewBox='-5 -6 20 22' xmlns='http://www.w3.org/2000/svg' fill='currentColor' class='_providerIcon_1m4wa_41'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7.976 0A7.977 7.977 0 000 7.976c0 3.522 2.3 6.507 5.431 7.584.392.049.538-.196.538-.392v-1.37c-2.201.49-2.69-1.076-2.69-1.076-.343-.93-.881-1.175-.881-1.175-.734-.489.048-.489.048-.489.783.049 1.224.832 1.224.832.734 1.223 1.859.88 2.3.685.048-.538.293-.88.489-1.076-1.762-.196-3.621-.881-3.621-3.964 0-.88.293-1.566.832-2.153-.05-.147-.343-.978.098-2.055 0 0 .685-.196 2.201.832.636-.196 1.322-.245 2.007-.245s1.37.098 2.006.245c1.517-1.027 2.202-.832 2.202-.832.44 1.077.146 1.908.097 2.104a3.16 3.16 0 01.832 2.153c0 3.083-1.86 3.719-3.62 3.915.293.244.538.733.538 1.467v2.202c0 .196.146.44.538.392A7.984 7.984 0 0016 7.976C15.951 3.572 12.38 0 7.976 0z'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  border-radius: 0.3rem;
+  box-shadow: 0 3px 1rem 0 rgba(0,0,0,.15);
+  /* font-size: 1.4rem; */
+  font-weight: 700;
+  height: 3rem;
+  padding-left: 3rem;
+}
+
+canvas {
+  height: 300px !important;
+}
+
+.alert-foobar, .alert-foobar:focus {
+  background-color: #ffc8be;
+  color: red;
+}

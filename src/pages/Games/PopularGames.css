@@ -1,0 +1,38 @@
+.carousel-wrapper {
+  /* border: 5px solid #9e7acd; */
+}
+
+.carousel-item-blur {
+  position: relative;
+  min-height: 400px;
+  padding: 10px;
+}
+
+.carousel-item-blur .carousel-item-blur-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  filter: blur(1px);
+  box-shadow: inset 0 -180px 50px -40px rgba(0, 0, 0, 0.75);
+}
+
+.carousel-item-cover {
+  /* position: absolute;
+  z-index: 2; */
+}
+
+.home-carousel-caption {
+  /* position: absolute; */
+  bottom: 0;
+  /* left: 15%; */
+  z-index: 1;
+  left: 0;
+  width: 100%;
+}
+*
+.carousel-item-rating {
+  background-color: #9e7acd;
+  border-radius: 50%;
+}
